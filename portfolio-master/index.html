@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/user-solid.svg" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Glidejs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="home" class="header">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="navigation container">
+
+          <div class="logo">
+
+            <h1>K.R.Vishnu Kumar</h1>
+          </div>
+
+          <div class="menu">
+            <div class="top-nav">
+              <div class="logo">
+                <h1>Vishnu Kumar <span>K.R</span></h1>
+              </div>
+              <div class="close">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link scroll-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link scroll-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link scroll-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link scroll-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link scroll-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scroll-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero -->
+      <div class="hero">
+        <h3>Hello, My Name is</h3><br>
+        <h1>Vishnu Kumar K.R.</h1><br>
+        <h4><span id="type1"></span></h4>
+        
+      </div>
+
+      <img class="banner" src="./images/Vishnu Pic.jpg" alt="" width="50%" height="70%" style="object-fit: cover; border-radius:15%;"/>
+
+      
+    </header>
+
+    <!-- Main -->
+    <section class="section about" id="about">
+      <div class="title">
+        <h1>About me</h1>
+      </div>
+
+      <div class="about-center container">
+        <!--<div class="left" data-aos="fade-right" data-aos-duration="2000">
+          <img src="./images/profile1.jpg" alt="" />
+        </div>-->
+        <div class="right" data-aos="fade-left" data-aos-duration="2000" style="width: 600px;">
+          <h1>I'm Vishnu Kumar K.R. <br> <span id="type2"></span></h1>
+          <p>
+            Hi! I’m Vishnu Kumar K.R. I'm currently pursuing my B.E degree (Computer Science And Engineering) at Velammal College of Engineering And Technology,Madurai.I'm quit good at C,Java,Html,Css,Javascript and ReactJs. I'm very much interested in web development.I'm waiting for the opportunity to collaborate with live industry projects.
+          </p>
+          <a href="./images/Vishnu onepage resume.pdf" class="btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+     
+    <section class="section theme" id="projects">
+      <div class="title">
+        <h1>Projects</h1>
+      </div>
+
+      <div class="teams-center container">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/CANDY GAME.png" alt="" />
+                  </div><br>
+                  <h2>Candy Crush Game</h2><br>
+                  <p>
+                    Candy Crush is a puzzle game where players match colorful candies in a grid to complete levels and achieve high scores.which is created using Javascript,HTML,CSS
+                  </p>
+                  <a href="https://vishnukr-candycrush.netlify.app/" style="color: #878500">Live Demo</a> <br><br>
+
+                  <button type="button" style="padding: 10px; border-radius: 50px"><a href="https://github.com/Vishnu-KumarKR/Candy-Crush.git" style="color: #878500">View Source Code</a></button>
+                </div>
+              </li>
+              <!-- <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/rock.jfif" alt="" />
+                  </div><br>
+                  <h2>Rock-Paper-Scissor-Game</h2><br>
+                  <p>
+                    Rock paper scissors is a hand game usually played between two people (Here computer and user) which is created using
+                    Javascript,HTML,CSS
+                  </p>
+                  <a href="https://vedhasrockpaperscissor.netlify.app/" style="color: #878500">Live Demo</a> <br><br>
+
+                  <button type="button" style="padding: 10px; border-radius: 50px;color: #878500"><a href="https://github.com/vedha-24/Rock-Paper-Scissor-Game-" style="color: #878500">View Source Code</a></button>
+                </div>
+              </li> -->
+              <!-- <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/todo.jfif" alt="" />
+                  </div><br>
+                  <h2>ToDoList App in React</h2><br>
+                  <p>
+                    ToDOList is used to manage our task that is listed in the todolist which is created using Reactjs
+                  </p>
+                  <a href="https://vedha-24.github.io/ToDoList-In-React/" style="color: #878500">Live Demo</a> <br><br>
+
+                  <button type="button" style="padding: 10px; border-radius: 50px"><a href="https://github.com/vedha-24/ToDoList-App-in-React" style="color: #878500">View Source Code</a></button>
+                </div>
+              </li> -->
+              <!-- <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/speed.jfif" alt="" />
+                  </div>
+                  <br>
+                  <h2>Speed Typing Game</h2><br>
+                  <p>
+                   Speed typing game created using Javascript,HTML,CSS.
+                  </p>
+                  <a href="https://vedspeedtypinggame.netlify.app/" style="color: #878500">Live Demo</a> <br><br>
+
+                  <button type="button" style="padding: 10px; border-radius: 50px"><a href="https://github.com/vedha-24/speed-typing-game" style="color: #878500">View Source Code</a></button>
+                </div>
+              </li> -->
+              <!-- <li class="glide__slide">
+                <div class="team">
+                  <div class="img-cover">
+                    <img src="./images/jum.png" style="size: 0.3px" alt="" />
+                  </div><br>
+                  <h3>Simple Jump Game</h3><br>
+                  <p>
+                    It's a simple javascript game.It is similar to google dinosaur game that you can play when there is no internet connection
+                  </p>
+                  <a href="https://simplejumpgame.netlify.app/" style="color: #878500">Live Demo</a> <br><br>
+
+                  <button type="button" style="padding: 10px; border-radius: 50px"><a href="https://github.com/vedha-24/simple-jump-game" style="color: #878500">View Source Code</a></button>
+                </div>
+              </li> -->
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+  
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="title">
+        <h1>My Skills</h1>
+      </div>
+
+      <div class="skills-center container">
+        <div class="skills-left" data-aos="fade-right" data-aos-duration="2000">
+          <div class="skills-box">
+            <h4>HTML5</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar html"></div>
+              <span>95%</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <h4>CSS</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar css"></div>
+              <span>85%</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <h4>JavaScript</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar javascript"></div>
+              <span>45%</span>
+            </div>
+          </div>
+          
+
+          
+        </div>
+
+        <div class="right" data-aos="fade-left" data-aos-duration="2000">
+          
+          <div class="skills-box">
+            <h4>Java</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar c"></div>
+              <span>80%</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <h4>C</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar java"></div>
+              <span>60%</span>
+            </div>
+          </div>
+          <div class="skills-box">
+            <h4>ReactJs</h4>
+            <div class="skills-ilt">
+              <div class="skills-bar react"></div>
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+       
+
+          
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="section theme" id="portfolio">
+      <div class="title">
+        <h1>Featured Portfolio</h1>
+      </div>
+
+      <div class="services-center container">
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+          <!--<span><i class="fab fa-accusoft"></i></span>-->
+          <h2>CERTIFICATION</h2>
+          <h3 style="font-size: 15px;">JAVA - UDEMY </h3>
+          <img src="./images/UDEMY.png" ><br>
+
+          <a href="./images/UDEMY.png">Click Here To View</a>
+          
+        </div>
+
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
+         <!-- <span><i class="fas fa-chart-line"></i></span>-->
+          <h2>CERTIFICATION</h2>
+          <h3 style="font-size: 15px;">NPTEL- PRIVACY AND SECURITY IN ONLINE SOCIAL MEDIA</h3> 
+          <img src="./images/NPTEL.png" ><br>
+
+          <a href="./images/NPTEL.png">Click Here To View</a>
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+         <!-- <span><i class="fas fa-blender-phone"></i></span>-->
+          <h2>CERTIFICATION</h2>
+          <h3 style="font-size: 15px;">COURSERA - GOOGLE UX DESIGN</h3>
+          <img src="./images/COURSERA.png" ><br>
+
+          <a href="./images/COURSERA.png">Click Here To View</a>
+          
+          
+        </div>
+        
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
+          <!--<span><i class="fas fa-chart-line"></i></span>-->
+          <h2>CERTIFICATION OF PARTICIPATION</h2>
+          <h3 style="font-size: 15px;">VCET - 3rd NATIONAL LEVEL PROJECT CONTEST INNOFESTA'23 </h3>
+          <img src="./images/PROJECT PARTICIPATION.png" ><br> 
+
+          <a href="./images/PROJECT PARTICIPATION.png">Click Here To View</a>
+          
+        </div>
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+         <!-- <span><i class="fab fa-accusoft"></i></span>-->
+          <h2>CERTIFICATION</h2>
+          <h3 style="font-size: 15px;">WORKSHOP - ROAD TO REACT BY CDW</h3>
+         <img src="./images/WORKSHOP.png" ><br>
+
+          <a href="./images/WORKSHOP.png">Click Here To View</a>
+          
+        </div>
+
+
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+         <!-- <span><i class="fas fa-blender-phone"></i></span>-->
+          <h2>CERTIFICATION</h2>
+          <h3 style="font-size: 15px;">INTERNSHIP - WEB DEVELOPMENT</h3>
+          <img src="./images/INTERNSHIP.png" ><br>
+
+          <a href="./images/INTERNSHIP.png">Click Here To View</a>
+        </div>
+        <div class="service" data-aos="fade-down" data-aos-duration="2000">
+         <!-- <span><i class="fab fa-accusoft"></i></span>-->
+          <h2>CERTIFICATION</h2>
+          <h3 style="font-size: 15px;">NCC ARMY</h3>
+          <img src="./images/NCC CERTIFICATE.png" ><br>
+
+          <a href="./images/NCC CERTIFICATE.png">Click Here To View</a>
+        </div>
+
+        <div class="service" data-aos="fade-up" data-aos-duration="2000">
+         <!-- <span><i class="fas fa-chart-line"></i></span>-->
+          <h2>CERTIFICATION</h2>
+          <h3 style="font-size: 15px;">NCC CAMP </h3>
+          <img src="./images/CAMP NCC.png" ><br>
+
+          <a href="./images/CAMP NCC.png">Click Here To View</a>
+        </div>
+
+        
+      </div>
+    </section>
+
+    
+  <!-- Contact--> 
+    <section class="section contact" id="contact">
+      <div class="title">
+        <h1>Contact me</h1>
+      </div>
+
+      <div class="contact-center container">
+        <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
+          
+          <div>
+            <span class="icon"><i class="fas fa-user"></i></span>
+            <span class="content">
+              <h3>Name</h3>
+              <span>K.R.VISHNU KUMAR</span>
+            </span>
+          </div>
+
+          <div>
+            <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="content">
+              <h3>Address</h3>
+              <span>22A,Mahal 6th Street,Madurai-1</span>
+            </span>
+          </div>
+
+          <div>
+            <span class="icon"><i class="fas fa-envelope"></i></span>
+            <span class="content">
+              <h3>Email</h3>
+              <span>tvishnu506@gmail.com</span>
+            </span>
+          </div>
+        </div>
+        <div class="right" data-aos="fade-up-left" data-aos-duration="2000">
+          <div>
+            <span class="icon"><i class="fab fa-linkedin "></i></span>
+            <span class="content">
+              <h3>Linkedin</h3>
+              <span><a href="https://www.linkedin.com/in/vishnu-kumar-kr ">https://www.linkedin.com/in/vishnu-kumar-kr </a></span>
+            </span>
+          </div>
+          <div>
+            <span class="icon"><i class="fab fa-github"></i></span>
+            <span class="content">
+              <h3>Github</h3>
+              <span><a href="https://github.com/Vishnu-KumarKR " style="color:blue;">https://github.com/Vishnu-KumarKR </a></span>
+            </span>
+          </div>
+          
+
+
+        </div>
+      </div>
+    </section>
+  
+
+    <footer >
+      <p>Created By <span>Vishnu K.R</span></p>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Typeit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Glidejs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- Custom Script -->
+    <script src="index.js"></script>
+  </body>
+</html>
